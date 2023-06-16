@@ -1,0 +1,55 @@
+/* Обнуления */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.block{
+    width: 500px;
+    height: 500px;
+    background: floralwhite;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+
+    /* Внешний отступ */
+    /* margin: 50px; */
+    /* margin: 25px 15px; */
+    /* margin: 50px 40px 30px 20px; */
+    margin: 50px auto;
+
+    /* Внутренний отступ */
+    /* padding: 20px; */
+    /* padding: 20px 10px; */
+    /* padding: 20px 15px 10px 5px; */
+}
+
+.box{
+    width: 75px;
+    height: 75px;
+    border: 1px solid #000;
+    color: white;
+    font-size: 25px;
+}
+
+.box{
+    /* background: dodgerblue; */
+}
+
+.box:first-child{
+    background: indianred;
+}
+
+.box:nth-child(2){
+    background: maroon;
+}
+
+.box:nth-child(3){
+    background: forestgreen;
+}
+
+.box:last-child{
+    background: peru;
+}
