@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body{
+    height: 200vh;
+}
+
 
 .block{
     width: 500px;
@@ -23,7 +27,11 @@
     /* Внутренний отступ */
     /* padding: 20px; */
     /* padding: 20px 10px; */
-    /* padding: 20px 15px 10px 5px; */
+    /* /* padding: 20px 15px 10px 5px; * */
+    
+
+    position: relative;
+   
 }
 
 .box{
@@ -32,6 +40,7 @@
     border: 1px solid #000;
     color: white;
     font-size: 25px;
+    
 }
 
 .box{
@@ -40,16 +49,47 @@
 
 .box:first-child{
     background: indianred;
+
+    position: relative;
+    left: 85%;
+    top: 85%;
+
+        z-index: 2;
+   
+   
 }
 
 .box:nth-child(2){
     background: maroon;
+
+    position: absolute;
+    top: 80%;
+    left: 82%;
+
+   z-index: 1;
 }
 
 .box:nth-child(3){
     background: forestgreen;
+
+    position: absolute;
+    top: 77%;
+    left: 77%;
+
+        z-index: 3;
 }
 
 .box:last-child{
     background: peru;
+
+    position: absolute;
+    top: 75%;
+    left: 75%;
+
+   
 }
+
+
+
+/* justify-content: center o'ng tomon o'rtaga surish
+    align-items: center; pastga o'rtaga olib o'tish */
